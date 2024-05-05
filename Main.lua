@@ -76,9 +76,9 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Universal Admin", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Universal", 4483362458) -- Title, Image
 
-local Section = Tab:CreateSection("List Of Admin Script")
+local Section = Tab:CreateSection("List Of Universal Script")
 
 local Button = Tab:CreateButton({
    Name = "Infinite Yield",
@@ -87,7 +87,14 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Arsenal Script", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+   Name = "Perm Animation Changer",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+   end,
+})
+
+local Tab = Window:CreateTab("Arsenal", 4483362458) -- Title, Image
 
 local Section = Tab:CreateSection("List Of Arsenal Script")
 
@@ -109,5 +116,36 @@ local Button = Tab:CreateButton({
    Name = "Tect Hub Arsenal",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Arsenalscript.txt"))()
+   end,
+})
+
+local Tab = Window:CreateTab("Blade Ball", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("List Of Blade BallScript")
+
+local Button = Tab:CreateButton({
+   Name = "Plutonium",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Infinix Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://github.com/Hosvile/InfiniX/releases/latest/download/main.lua", true))
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Bedol Hub",
+   Callback = function()
+   _G.SkipLoad = true 
+
+local _,er_msg = pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/New-C4-Remote.lua/main/BetaTest/Bladeball15m.html")))
+
+if er_msg and not _ then
+    game.Players.LocalPlayer:Kick(er_msg)
+end
    end,
 })
