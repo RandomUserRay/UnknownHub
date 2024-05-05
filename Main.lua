@@ -58,7 +58,12 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "VegaX GUI",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomUserRay/ExecuterSource/main/VegaXSource.lua"))()
+  game.StarterGui:SetCore("SendNotification", {
+            Title = "VegaX Key";
+            Text = "the key is keyless";
+            Duration = "30";
+}) 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomUserRay/ExecuterSource/main/VegaXSource.lua"))()
    end,
 })
 
