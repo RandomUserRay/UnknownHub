@@ -86,3 +86,28 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
    end,
 })
+
+local Tab = Window:CreateTab("Arsenal Script", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("List Of Arsenal Script")
+
+local Button = Tab:CreateButton({
+   Name = "Hitbox Expander",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomUserRay/UnknownScript/main/Arsenal%20Hitbox.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "QP Hub Arsenal",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/QPScript/Script/main/Arsenal.txt"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Tect Hub Arsenal",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Arsenalscript.txt"))()
+   end,
+})
