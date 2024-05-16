@@ -594,3 +594,14 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua"))()
    end,
 })
+
+local Tab = Window:CreateTab("CounterBlox", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("List Of Counter Blox Script")
+
+local Button = Tab:CreateButton({
+   Name = "BusWare",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomUserRay/UnknownScript/main/BusWareTest.lua"))()
+   end,
+})
