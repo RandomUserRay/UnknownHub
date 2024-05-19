@@ -9,21 +9,21 @@ local Window = Rayfield:CreateWindow({
    LoadingSubtitle = "by muqh",
    ConfigurationSaving = {
       Enabled = true,
-      FolderName = nil, -- Create a custom folder for your hub/game
+      FolderName = nil, 
       FileName = "UnknownHub"
    },
    Discord = {
       Enabled = true, 
-      Invite = "scriptsqp", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
-      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+      Invite = "scriptsqp",
+      RememberJoins = true 
    },
-   KeySystem = false, -- Set this to true to use our key system
+   KeySystem = false, 
    KeySettings = {
-      Title = "Untitled",
+      Title = "UnknownHub",
       Subtitle = "Key System",
       Note = "No method of obtaining the key is provided",
-      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
-      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      FileName = "Key", 
+      SaveKey = true, 
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
       Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
@@ -34,7 +34,7 @@ Rayfield:Notify({
    Content = "Succesfully Loaded! ty for using the hub.",
    Duration = 6.5,
    Image = 4483362458,
-   Actions = { -- Notification Buttons
+   Actions = { 
       Ignore = {
          Name = "Okay!",
          Callback = function()
@@ -44,7 +44,7 @@ Rayfield:Notify({
 },
 })
 
-local Tab = Window:CreateTab("Executer GUI", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Executer GUI", 4483362458) 
 
 local Section = Tab:CreateSection("List Of Executer GUI Script")
 
@@ -90,7 +90,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Universal", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Universal", 4483362458) 
 
 local Section = Tab:CreateSection("List Of Universal Script")
 
@@ -164,7 +164,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Arsenal", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Arsenal", 4483362458) 
 
 local Section = Tab:CreateSection("List Of Arsenal Script")
 
@@ -203,7 +203,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Blade Ball", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Blade Ball", 4483362458) 
 
 local Section = Tab:CreateSection("List Of Blade BallScript")
 
@@ -248,7 +248,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("The Mimic", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("The Mimic", 4483362458)
 
 local Section = Tab:CreateSection("List Of The Mimic Script")
 
@@ -291,7 +291,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Blox Fruit", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Blox Fruit", 4483362458)
 
 local Section = Tab:CreateSection("List Of BloxFruit Script")
 
@@ -344,7 +344,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Bee Swarm Sim", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Bee Swarm Sim", 4483362458)
 
 local Section = Tab:CreateSection("List Of Bee Swarm Script")
 
@@ -355,7 +355,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Cursed Arena", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Cursed Arena", 4483362458) 
 
 local Section = Tab:CreateSection("List Of Cursed Arena Script")
 
@@ -373,7 +373,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Doors", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Doors", 4483362458) 
 
 local Section = Tab:CreateSection("List Of Doors Script")
 
@@ -384,7 +384,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Sol's Rng", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Sol's Rng", 4483362458)
 
 local Section = Tab:CreateSection("List Of Sol's Rng Script")
 
@@ -423,7 +423,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Bedwars", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Bedwars", 4483362458)
 
 local Section = Tab:CreateSection("List Of Bedwars Script")
 
@@ -448,7 +448,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Muscle Legend", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Muscle Legend", 4483362458) 
 
 local Section = Tab:CreateSection("List Of Muscle Legend Script")
 
@@ -459,7 +459,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("King Legacy", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("King Legacy", 4483362458) 
 
 local Section = Tab:CreateSection("List Of King Legacy Script")
 
@@ -484,7 +484,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Race Clicker", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Race Clicker", 4483362458) 
 
 local Section = Tab:CreateSection("List Of Race Clicker Script")
 
@@ -495,7 +495,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Driving Empire", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Driving Empire", 4483362458) 
 
 local Section = Tab:CreateSection("List Of Driving Empire Script")
 
@@ -520,7 +520,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("GunFight Arena", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("GunFight Arena", 4483362458) 
 
 local Section = Tab:CreateSection("List Of GunFight Arena Script")
 
@@ -531,7 +531,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Combat Warrior", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Combat Warrior", 4483362458) 
 
 local Section = Tab:CreateSection("List Of Combat Warrior Script")
 
@@ -551,7 +551,7 @@ __function(__function)
    end,
 })
 
-local Tab = Window:CreateTab("Jailbreak", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Jailbreak", 4483362458) 
 
 local Section = Tab:CreateSection("List Of Jailbreak Script")
 
@@ -562,7 +562,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Wall Climb", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Wall Climb", 4483362458) 
 
 local Section = Tab:CreateSection("List Of Wall Climb Script")
 
@@ -573,7 +573,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Prison Life", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Prison Life", 4483362458) 
 
 local Section = Tab:CreateSection("List Of Prison Life Script")
 
@@ -584,7 +584,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Pet Sim 99", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Pet Sim 99", 4483362458) -
 
 local Section = Tab:CreateSection("List Of Pet Sim 99 Script")
 
@@ -595,7 +595,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("CounterBlox", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("CounterBlox", 4483362458) 
 
 local Section = Tab:CreateSection("List Of Counter Blox Script")
 
