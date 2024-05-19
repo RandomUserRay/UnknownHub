@@ -87,6 +87,13 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "SynapeSex GUI",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomUserRay/ExecuterSource/main/SynapsexUi.lua"))()
+   end,
+})
+
 local Tab = Window:CreateTab("Universal", 4483362458) 
 
 local Section = Tab:CreateSection("List Of Universal Script")
