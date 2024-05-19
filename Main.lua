@@ -18,11 +18,11 @@ local Window = Rayfield:CreateWindow({
    KeySettings = {
       Title = "UnknownHub",
       Subtitle = "Key System",
-      Note = "No method of obtaining the key is provided",
+      Note = "yes test",
       FileName = "Key", 
       SaveKey = true, 
-      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"https://pastebin/raw/TqYYkdFr"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
 
