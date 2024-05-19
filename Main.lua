@@ -1,7 +1,4 @@
-local plr = game:GetService("Players")
-local lplr = plr.LocalPlayer
-
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/RandomUserRay/UnknownScript/main/RayfieldModded.lua'))()
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "Unknown Hub",
