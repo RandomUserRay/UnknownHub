@@ -14,7 +14,7 @@ local Window = Rayfield:CreateWindow({
       Invite = "scriptsqp",
       RememberJoins = true 
    },
-   KeySystem = false, 
+   KeySystem = true, 
    KeySettings = {
       Title = "UnknownHub",
       Subtitle = "Key System",
