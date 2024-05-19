@@ -1,4 +1,4 @@
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/RandomUserRay/UnknownScript/main/RayfieldModded.lua'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "Unknown Hub",
@@ -14,7 +14,7 @@ local Window = Rayfield:CreateWindow({
       Invite = "scriptsqp",
       RememberJoins = true 
    },
-   KeySystem = false, 
+   KeySystem = true, 
    KeySettings = {
       Title = "UnknownHub",
       Subtitle = "Key System",
@@ -22,7 +22,7 @@ local Window = Rayfield:CreateWindow({
       FileName = "Key", 
       SaveKey = true, 
       GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"https://pastebin/raw/TqYYkdFr"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      Key = {"https://pastebin.com/raw/TqYYkdFr"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
 
